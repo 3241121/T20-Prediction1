@@ -1,0 +1,3 @@
+gitscikit-learn==1.4.2
+xgboost==1.5.2
+PyYAML==6.0.1
