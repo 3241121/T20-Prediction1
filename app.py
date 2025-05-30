@@ -5,8 +5,10 @@ import numpy as np
 import xgboost
 from xgboost import XGBRegressor
 from PIL import Image
+from joblib import load
 
-pipe = pickle.load(open('pipe.pkl','rb'))
+# Load the pre-trained model
+pipe = load('pipe.pkl')
 
 teams =  ['Afghanistan',
     'Australia',
